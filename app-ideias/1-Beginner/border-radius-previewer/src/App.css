@@ -1,0 +1,87 @@
+.App {
+  width: 100%;
+  min-height: 100vh;
+
+  text-align: center;
+  background-color: #282c34;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.content-container {
+  width: 500px;
+  height: 600px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 3px #535353;
+
+  background-color: #ffffff;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.content-container form {
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  
+  align-items: center;
+}
+
+.content-container form .input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
+}
+
+.content-container form input {
+  width: 30%;
+}
+
+/* .break {
+  flex-basis: 100%;
+  width: 0;
+} */
+
+.content-container form .input-container button {
+  margin-top: 20px;
+  width: 60px;
+  
+
+  border: none;
+  background-color: rgb(167, 167, 167);
+  border-radius: 3px;
+
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+}
+
+.content-container .result {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
