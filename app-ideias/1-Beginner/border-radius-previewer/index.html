@@ -1,0 +1,41 @@
+<html>
+    <header>
+        <link rel="stylesheet" href="styles.css">
+    </header>
+    <body>
+        <div class="App">
+            <header class="App-header">
+            </header>
+            <div class="content-container">
+              <h1>Border-radius Previewer</h1>
+                <div class="line">
+                  <div class="input-container">
+                    <label>Top Left</label>
+                    <input id="borderRadiusTopLeft" oninput="myFunction()"/>
+                  </div>
+                  <div class="input-container">
+                    <label>Top Right</label>
+                    <input id="borderRadiusTopRight" oninput="myFunction()"/>
+                  </div>
+                </div>
+                <div class="line">
+                  <div class="input-container">
+                    <label>Bottom Left</label>
+                    <input id="borderRadiusBottomLeft" oninput="myFunction()"/>
+                  </div>
+                  <div class="input-container">
+                    <label>Bottom Right</label>
+                    <input id="borderRadiusBottomRight" oninput="myFunction()"/>
+                  </div>
+                </div>
+              <h1>Result</h1>
+              <div class="result">
+                <textarea readonly name="result" id="result" cols="50" rows="5"></textarea>
+              </div>
+              <br>
+              <div class="result" id="box-result"></div>
+            </div>
+          </div>
+          <script src="my.js" defer></script>
+    </body>
+</html>

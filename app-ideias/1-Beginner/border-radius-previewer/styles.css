@@ -1,0 +1,76 @@
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.App {
+    width: 100%;
+    min-height: 100vh;
+  
+    text-align: center;
+    background-color: #282c34;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .App-header {
+    /* background-color: #282c34; */
+    min-height: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+  }
+  
+  .content-container {
+    width: 30rem;
+    height: 40rem;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px #535353;
+  
+    background-color: #ffffff;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .content-container .line{
+    display: flex;
+    align-items: center;
+  }
+
+  .content-container .line .input-container {
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    margin: 5px
+  }
+  
+  .content-container input {
+    width: 30%;
+    margin-left: 5px;
+  }
+    
+  .content-container #box-result {
+    width: 200px;
+    height: 200px;
+    background-color: #42229b;
+  }
+
+textarea {
+  resize: none;
+}
