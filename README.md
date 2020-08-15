@@ -1,6 +1,6 @@
 ## :ledger: App Ideas Collection
 
-![App Ideas Image](https://github.com/florinpop17/app-ideas/app-ideas.png)
+![App Ideas Image](https://github.com/florinpop17/app-ideas/raw/master/app-ideas.png)
 
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/florinpop17/app-ideas/CONTRIBUTING.md)
 
@@ -43,8 +43,8 @@ required to complete them.
 
 | Name                                                                              | Short Description                                          | Tier       | Done  |
 | --------------------------------------------------------------------------------- | ---------------------------------------------------------- | ---------- | ----- |
-| [Bin2Dec](https://github.com/florinpop17/app-ideas/Projects/1-Beginner/Bin2Dec-App.md)                                   | Binary-to-Decimal number converter                         | 1-Beginner | [DONE](./1-Beginner/bin2dec/build/index.html)| 
-| [Border Radius Previewer](https://github.com/florinpop17/app-ideas/Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | 1-Beginner | [DONE](./1-Beginner/border-radius-previewer/index.html)|
+| [Bin2Dec](https://github.com/florinpop17/app-ideas/Projects/1-Beginner/Bin2Dec-App.md)                                   | Binary-to-Decimal number converter                         | 1-Beginner | [DONE](./app-ideias/1-Beginner/bin2dec/build/index.html)| 
+| [Border Radius Previewer](https://github.com/florinpop17/app-ideas/Projects/1-Beginner/Border-Radius-Previewer.md)       | Preview how CSS3 border-radius values affect an element    | 1-Beginner | [DONE](./app-ideias/1-Beginner/border-radius-previewer/index.html)|
 | [Calculator](https://github.com/florinpop17/app-ideas/Projects/1-Beginner/Calculator-App.md)                             | Calculator                                                 | 1-Beginner |
 | [Christmas Lights](https://github.com/florinpop17/app-ideas/Projects/1-Beginner/Christmas-Lights-App.md)                 | Simulate a string of Christmas lights                      | 1-Beginner |
 | [Cause Effect App](https://github.com/florinpop17/app-ideas/Projects/1-Beginner/Cause-Effect-App.md)                     | Click list item to display item details                    | 1-Beginner |
